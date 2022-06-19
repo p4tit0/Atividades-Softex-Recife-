@@ -2,7 +2,7 @@
 _Aluno: Vinícius Santos Lima     E-mail: viniciussantoslima2003@gmail.com<br>Data: 19 de junho de 2022_
 #  
 
-###Enunciado: 
+### Enunciado: 
 Crie um vetor com ponteiros utilizando alocação dinâmica na linguagem C, que:
 
 - use a função realloc;
