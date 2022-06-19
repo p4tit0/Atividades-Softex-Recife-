@@ -1,2 +1,2 @@
-# Bem vindo ao meu repositório <a href="https://github.com/p4tit0/Atividades-Softex-Recife-/"><img src="Assets/IMG_20220612_224721.jpg" alt="Logo" width="80" height="80"></a>
-Pequeno repositório para guardar as minhas atividades
+***<h1><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/"><img src="Assets/IMG_20220612_224721-modified.png" alt="Logo" width="80" height="80"></a> Bem-vindo(a) ao meu repositório</h1>***
+Esse é um pequeno repositório para guardar as minhas atividades no decorrer do curso.
