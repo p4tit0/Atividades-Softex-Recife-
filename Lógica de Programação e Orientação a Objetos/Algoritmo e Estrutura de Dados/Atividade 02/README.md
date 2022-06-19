@@ -1,5 +1,5 @@
 # ***Segunda atividade de algoritmos***
-_Aluno: Vinícius Santos Lima     E-mail: viniciussantoslima2003@gmail.com<br>Data: 19 de junho de 2022_
+_Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data: 19 de junho de 2022_
 #  
 
 ### Enunciado: 
@@ -10,4 +10,9 @@ Crie um vetor com ponteiros utilizando alocação dinâmica na linguagem C, que:
 - que tenha tamanho 22 de vetor;
 - depois libere o bloco utilizando a função free.
 
-<h3>Resolução</h3>
+<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/Lógica%20de%20Programação%20e%20Orientação%20a%20Objetos/Algoritmo%20e%20Estrutura%20de%20Dados/Atividade%2002/main.c">Resolução:</a></h3>
+Clique no hiperlink acima ou acesse o aqrquivo "main.c" para ver a resolução.
+<br>
+<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/Lógica%20de%20Programação%20e%20Orientação%20a%20Objetos/Algoritmo%20e%20Estrutura%20de%20Dados/Atividade%2002/main.c">Testar o código:</a></h3>
+Clique no hiperlink acima ou acesse "https://replit.com/@Pattito/Desenvolvimento-09-Vinicius-Lima#main.c" para testar o código.
+<br>
