@@ -14,7 +14,7 @@ O método deve:
 <h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/Lógica%20de%20Programação%20e%20Orientação%20a%20Objetos/Algoritmo%20e%20Estrutura%20de%20Dados/Atividade%2004/main.py">Resolução:</a></h3>
 Clique no hiperlink acima ou acesse o aqrquivo "main.py" para ver a resolução.<br>
 <br>
-<a href="https://replit.com/@Pattito/Desenvolvimento-09-Vinicius-Lima#main.c">Atenção:</h3>
+<h3>Atenção:</h3>
 Esse código utiliza a biblioteca matplotlib para fazer a representação vetrorial do número complexo. para instala-la digite "pip install matplotlib" no terminal de seu computador
 <br>
 
