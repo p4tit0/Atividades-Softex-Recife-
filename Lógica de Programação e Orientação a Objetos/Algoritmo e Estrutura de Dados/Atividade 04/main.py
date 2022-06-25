@@ -1,9 +1,9 @@
 from complex import Complexo
-from format import Format
 from math import degrees
+import format
 
 
-Format.title1(50, "CALCULADORA DE COMPLEXOS", bg_color='CYAN', txt_color='', txt_format='ITALIC+BOLD')
+format.title1(50, "CALCULADORA DE COMPLEXOS", bg_color='CYAN', txt_color='', txt_format='ITALIC+BOLD')
 print("Insira 3 números complexos.")
 
 formats = list()
@@ -22,7 +22,7 @@ for i in range(3):
                 is_rect = False
                 break
             case _:
-                Format.msg(50, "ERROR", "INSIRA UMA RESPOSTA VÁLIDA!")
+                format.msg(50, "ERROR", "INSIRA UMA RESPOSTA VÁLIDA!")
     formats.append(is_rect)
 
     first_part: str = "o módulo"
@@ -32,7 +32,7 @@ for i in range(3):
         try:
             first_parts.append(float(input(f"Insira {first_part} do {i + 1}º número:\n")))
         except ValueError:
-            Format.msg(50, "ERROR", "INSIRA UM NÚMERO VÁLIDO!")
+            format.msg(50, "ERROR", "INSIRA UM NÚMERO VÁLIDO!")
         else:
             break
 
@@ -43,13 +43,13 @@ for i in range(3):
         try:
             second_parts.append(float(input(f"Insira {second_part} do {i + 1}º número:\n")))
         except ValueError:
-            Format.msg(50, "ERROR", "INSIRA UM NÚMERO VÁLIDO!")
+            format.msg(50, "ERROR", "INSIRA UM NÚMERO VÁLIDO!")
         else:
             break
     numbers.append(Complexo(first_parts[i], second_parts[i], formats[i]))
     # numbers[i].mostrar()
 
-Format.title1(50, "CALCULADORA DE COMPLEXOS", bg_color='CYAN', txt_color='', txt_format='ITALIC+BOLD')
+format.title1(50, "CALCULADORA DE COMPLEXOS", bg_color='CYAN', txt_color='', txt_format='ITALIC+BOLD')
 print('Agora insira a equação, use "Z1", "Z2" e "Z3" para representar os números digitados anteriormente e "R" pra o resultado da equação anterior.')
 print('Operações disponíveis: soma(+), subtração(-), multiplicação(*), divisão(/), mostrar vetor(ZX.M)')
 print('Digite "SAIR" para encerrar o programa.')
@@ -96,6 +96,6 @@ while True:
             result.mostrar()
         print()
     except:
-        Format.msg(50, "ERROR", "EQUAÇÃO INVÁLIDA!")
+        format.msg(50, "ERROR", "EQUAÇÃO INVÁLIDA!")
 
 
