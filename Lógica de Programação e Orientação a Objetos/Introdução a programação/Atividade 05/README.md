@@ -4,11 +4,11 @@ _Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data:
 
 ### Enunciado: 
 Faça uma função calculadora que os números e as operações serão feitas pelo usuário. O código deve ficar rodando infinitamente até que o usuário escolha a opção de sair. No início, o programa mostrará a seguinte lista de operações:
-1: Soma
-2: Subtração
-3: Multiplicação
-4: Divisão
-0: Sair
+- 1: Soma
+- 2: Subtração
+- 3: Multiplicação
+- 4: Divisão
+- 0: Sair
 
 Digite o número para a operação correspondente e caso o usuário introduza qualquer outro, o sistema deve mostrar a mensagem “Essa opção não existe” e voltar ao menu de opções.
 
