@@ -1,6 +1,5 @@
 def get_format(bg_color: str = '', txt_color: str = '', txt_format: str = ''):
     txt_color_num = 30
-    print(txt_color.upper().split(' ')[0])
     if txt_color.upper().split(' ')[0] == 'BRIGHT':
         txt_color_num = 90
 
