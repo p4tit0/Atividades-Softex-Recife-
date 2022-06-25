@@ -17,7 +17,7 @@ format.title(50, 'ATENÇÃO!!! ISSO NÃO É UM TESTE', bg_color='RED', txt_forma
 print("Iniciando contagem regressiva...".center(50))
 print()
 txt_color = 39
-for timer in range(2, -1, -1):
+for timer in range(10, -1, -1):
     sleep(1)
     if timer <= 3:
         txt_color = 31
