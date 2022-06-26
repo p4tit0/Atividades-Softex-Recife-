@@ -1,0 +1,5 @@
+aluno,nota_1,nota_2,faltas,media,situacao
+aluno_1,7,7,1,7.0,APROVADO
+aluno_2,3,10,7,6.5,REPROVADO
+aluno_3,9,4,2,6.5,REPROVADO
+aluno_4,10,6,9,8.0,REPROVADO
