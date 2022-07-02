@@ -1,0 +1,199 @@
+/**
+ * ATENÇÃO: Eu não sei qual a sintaxe correta em portugol para alguns dos comando que utilizei aqui. estarei deixando uma lista com cada um deles aqui em baixo 
+ * 
+ * separar_por(string: Caractere, separador: Caractere, *limite: Inteiro) -> Separa uma string em um determinado caractere separador, retornando um vetor de strings
+ * compr(x: Iterável) -> Retorna o comprimento de qualquer variável iterável, como uma string ou um vetor
+ * arquivo_existe(caminho: Caractere) -> verifica se um determinado arquivo existe, retornano um valor logico
+ * carregar_arquivo(caminho: Caractere) -> carrega um arquivo e salva em uma variável, permitindo acessar todos os seus dados e metadados
+ * carregar_audio(caminho: Caractere) -> carrega um arquivo de audio e salva em uma variável, permitindo toca-lo ou para-lo a qualquer momento
+ * espere(tempo: Inteiro) -> pausa a execução do programa por um determinado periodo de tempo
+ * .pop(indice: Inteiro) -> Remove determinado elemento de um vetor
+ * ESTAEM -> Verifica se determinado elemento esta dentro de determinada variável iteravel
+ * .adicione(x: Objeto) -> Adiciona um valor ao fim de um vetor
+ * .juntar(vec: Vetor) -> junta os elementos de um vetor separando os elementos com o caractere informado anteriormente
+ * .trocar_por(a: Caractere, b: Caractere) -> Troca um caractere por outro em uma determinada string
+ *
+ * Se alguém souber qual a sintaxe correta, por favor deixe um comentario falando. agradeço desde já :)
+ */
+
+
+Classe Mensagem
+    remetente, destinatario, conteudo: Caractere
+
+    Metodo definir_mensagem(remet, dest, cont):
+        remetente <- remet
+        destinatario <- dest
+        conteudo <- cont
+    FimMetodo
+
+    Metodo pegar_mensagem():
+        tamanho: Inteiro
+        mensagem: Caractere
+        
+        tamanho <- 0
+        PARA linha DE 0 ATE compr(separar_por(conteudo, '\n') PASSO 1 FACA
+            SE compr(linha) > tamanho ENTAO
+                tamanho = compr(linha)
+            FIMSE
+        FIMPARA
+
+        mensagem <- "-" * (tamanho \ 2 - compr(destinatario) \ 2 + 1) + destinatario + "-" * (tamanho \ 2 - compr(destinatario) \ 2 + 1)+ "\n"
+        mensagem <- mensagem + ' ' + conteudo + "\n\n"
+        mensagem <- mensagem + " ass. " + conteudo + "\n"
+        mensagem <- mensagem + "-" * (tamanho + 2)
+        retorne mensagem
+    FimMetodo
+
+    Metodo deletar_mensagem():
+        remetente <- ""
+        destinatario <- ""
+        conteudo <- ""
+    FimMetodo
+FimClasse
+
+Classe Musica
+    caminho_do_arquivo: Caractere
+    titulo: Caractere
+    album: Caractere
+    artista: Caractere
+
+    Metodo definir_musica(caminho):
+        audio: Arquivo
+        
+        SE NAO arquivo_existe(caminho) ENTAO
+            retorne
+        FIMSE
+        caminho_do_arquivo = caminho
+        audio <- carregar_arquivo(caminho)
+        titulo <- audio.titulo
+        album <- audio.album
+        artista <- audio.artista
+    FimMetodo
+
+    Metodo pegar_informacoes():
+        retorne titulo, album, artista
+
+    Metodo tocar():
+        audio: Audio
+        
+        audio <- carregar_audio(caminho_do_arquivo)
+        audio.tocar()
+        ENQUANTO audio.esta_tocando() FACA:
+            espere(1)
+        FIMENQUANTO
+FimClasse
+
+Classe Caderno
+    numero_de_paginas: Inteiro
+    linhas_por_pagina: Inteiro
+    conteudo:  vetor [1..30]  de Caractere
+
+    Metodo remover_pagina(pagina)
+        SE pagina NAO ESTAEM faixa(0, compr(conteudo)) ENTAO
+            retorne
+        FIMSE
+        conteudo.pop(pagina)
+    FimMetodo
+
+    Metodo pegar_pagina(pagina)
+        resutado: Caractere
+        SE pagina NAO ESTAEM faixa(0, compr(conteudo)) ENTAO
+            retorne
+        FIMSE
+        resutado <- "PÁGINA " + (pagina + 1) + '\n'
+        resutado <- vetor_de_paginas + conteudo[pagina]
+        return resutado
+    FimMetodo
+
+    Metodo escrever(texto):
+        caderno_vazio: Logico
+        pagina: inteiro
+        conteudo_anterior: vetor [1..linhas_por_pagina - 1] de Caractere
+        pagina_bruta: vetor [1..linhas_por_pagina*numero_de_paginas] de Caractere
+        fim: Inteiro
+        texto_da_pagina: Caractere
+        
+        caderno_vazio <- FALSO
+        SE NÃO conteudo:
+            caderno_vazio <- VERDADEIRO
+        FIMSE
+        
+        SE caderno_vazio ENTAO
+            pagina <- 0  
+        SENAO 
+            pagina <- compr(conteudo) - 1
+        FIMSE
+        
+        SE pagina = numero_de_paginas:
+            retorne
+        FIMSE
+        
+        ENQUANTO VERDADEIRO:            
+            conteudo_anterior <- separar_por(conteudo[pagina], '\n')
+            numero_de_linhas = compr(separar_por(conteudo[pagina], '\n'))
+            SE numero_de_linhas < linhas_por_pagina ENTAO
+            
+                PARA linha DE 0 ATE compr(conteudo_anterior) PASSO 1 FACA
+                    pagina_bruta.adicione(conteudo_anterior[linha] + '\n')
+                FIMPARA
+                
+                PARA linha DE 0 ATE compr(separar_por(texto, '\n')) PASSO 1 FACA
+                     pagina_bruta.adicione(separar_por(texto, '\n')[linha] + '\n')
+                FIMPARA
+                
+                PARA pag DE 0 ATE compr(pagina_bruta) // linhas_por_pagina + 1 PASSO 1 FACA
+                    fim <- (pag + 1) * linhas_por_pagina
+                    SE fim > compr(pagina_bruta) ENTAO 
+                        fim <- compr(pagina_bruta)
+                    FIMSE
+                    
+                    texto_da_pagina = ''.juntar(pagina_bruta[pag * linhas_por_pagina : fim])
+                    
+                    SE compr(conteudo) <= pagina + pag ENTAO
+                        conteudo.adicione(texto_da_pagina)
+                    SENAO:
+                        conteudo[pagina + pag] <- texto_da_pagina
+                    FIMSE
+                    
+                    conteudo[pagina + pag] <- sconteudo[pagina + pag][:-1]
+                interrompa
+            FIMSE
+            pagina <- pagina + 1
+        FIMENQUANTO
+    FimMetodo
+FimClasse
+
+
+Classe Computer:
+    os: Caractere
+    usuarios: Vetor [1..5, 1..2] de Caractere
+    sistemas_compativeis: Vetor [1..6] de Caractere <- ['Ubuntu', 'Mac OS', 'Windows XP', 'Windows 7', 'Windows 10', 'Windows 11']
+    usuario_atual: Caractere
+
+    Metodo trocar_os(novo_os):
+        SE novo_os NAO ESTAEM faixa(0, compr(sistemas_compativeis)) ENTAO
+            os <- ''
+            retorne
+        FIMSE
+        os <- sistemas_compativeis[novo_os]
+    FimMetodo
+
+    Metodo criar_novo_usuario(nome, senha):
+        SE nome ESTAEM usuarios[0]:
+            retorne
+        usuarios.adicione([nome, senha])
+    FimMetodo
+    
+    Metodo ligar(self):
+        audio: Audio
+        
+        SE os = '':
+            retorne
+        
+        audio <- carregar_audio("res/" + os.trocar_por(" ", "") + "Startup.mp3")
+        audio.tocar()
+        ENQUANTO audio.esta_tocando() FACA:
+            espere(1)
+        FIMENQUANTO
+    FimMetodo
+FimClasse
