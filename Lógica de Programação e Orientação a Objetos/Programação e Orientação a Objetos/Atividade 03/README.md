@@ -10,7 +10,7 @@ Crie dois pacotes baseados nas atribuições de uma empresa e inclua classes nel
 
 <h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/tree/main/Lógica%20de%20Programação%20e%20Orientação%20a%20Objetos/Programação%20e%20Orientação%20a%20Objetos/Atividade%2003/Resolução">Resolução:</a></h3>
 Clique no hiperlink acima ou acesse a pasta "Resolução" para ver a resolução do exercício.<br>
-(Por algum motivo foi pedido para escrever um código em java no bloco de notas/word. Por isso o código é exatamente o mesmo da implementaçao porém no formato .txt)<br>
+(Por algum motivo foi pedido para escrever um código em java no bloco de notas/word. Por isso o código é exatamente o mesmo da implementaçao porém no formato .txt)
 <br>
 <h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/tree/main/Lógica%20de%20Programação%20e%20Orientação%20a%20Objetos/Programação%20e%20Orientação%20a%20Objetos/Atividade%2003/Implementação">Implementação:</a></h3>
 Clique no hiperlink acima ou acessea pasta "Implementação" para ver a implementação do algorítimo em Java.<br>
