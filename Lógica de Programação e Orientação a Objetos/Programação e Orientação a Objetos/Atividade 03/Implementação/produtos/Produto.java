@@ -1,0 +1,70 @@
+
+package produtos;
+
+/**
+ * Classe base para todos os produtos vendidos pela empresa
+ * @author Vinícius Santos Lima
+ */
+public class Produto 
+{
+    private String codigo;
+    private String nome;
+    private float preco;
+    private int quat_disp;
+    
+    public Produto(String codigo, String nome, float preco, int quant_disp) throws Exception
+    {
+        set_code(codigo);
+        set_preco(preco);
+        set_quant(quant_disp);
+        set_name(nome);
+    }
+    
+    private void set_code(String new_code) throws Exception
+    {
+        int code_len = new_code.length();
+        if ( code_len != 10)
+            throw new Exception("O código do produto deve possuir 10 caracteres");
+        this.codigo = new_code.toUpperCase();
+    }
+    
+    private void set_preco(float new_price) throws Exception
+    {
+        if (new_price < 0)
+            throw new Exception("O preço do produto deve ser um valor positivo");
+        this.preco = new_price;
+    }
+    
+    private void set_quant(int quant) throws Exception
+    {
+        if (quant < 0)
+            throw new Exception("O número de produtos disponíveis deve ser maior que 0");
+        this.quat_disp = quant;
+    }
+    
+    private void set_name(String new_name)
+    {
+        this.nome = new_name;
+    }
+    
+    public String set_code()
+    {
+        return this.codigo;
+    }
+    
+    public float set_preco()
+    {
+        return this.preco;
+    }
+    
+    public int set_quant()
+    {
+        return this.quat_disp;
+    }
+    
+    public String set_name()
+    {
+        return this.nome;
+    }
+    
+}
