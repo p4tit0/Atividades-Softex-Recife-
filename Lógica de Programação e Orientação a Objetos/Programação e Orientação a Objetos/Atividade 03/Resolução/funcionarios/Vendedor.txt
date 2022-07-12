@@ -1,0 +1,30 @@
+
+package funcionarios;
+import produtos.*;
+
+/**
+ * Classe base para qualquer vendedor da empresa
+ * @author Vinícius Santos Lima
+ */
+public class Vendedor extends Pessoa
+{
+    private ProductNode produtos_vendidos;
+    private int num_vendas;
+    
+    public Vendedor(String nome, int idade, float salario) throws Exception
+    {
+         super(nome, idade, salario);
+         this.produtos_vendidos = null;
+         this.num_vendas = 0;
+    }
+    
+    public void vender_produto(Produto produto)
+    {
+        this.num_vendas++;
+        if (this.produtos_vendidos == null)
+            this.produtos_vendidos = new ProductNode(produto);
+        else
+            this.produtos_vendidos.add_node(produto);
+    }
+
+}
