@@ -8,7 +8,7 @@ Crie um exemplo de como funcionam a serialização e a desserialização de um s
 <br>
 **Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
 
-<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/tree/main/Lógica%20de%20Programação%20e%20Orientação%20a%20Objetos/Programação%20e%20Orientação%20a%20Objetos/Atividade%2006/serializacao/main.java">Resolução:</a></h3>
+<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/Lógica%20de%20Programação%20e%20Orientação%20a%20Objetos/Programação%20e%20Orientação%20a%20Objetos/Atividade%2006/serializacao/Main.java">Resolução:</a></h3>
 Clique no hiperlink acima ou acesse o arquivo "serializacao/main.java" para ver a resolução do exercício.
 <br>
 
