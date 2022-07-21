@@ -1,5 +1,5 @@
 # ***Primeira atividade sobre Manipulação de Dados***
-_Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data: 16 de julho de 2022_
+_Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data: 21 de julho de 2022_
 #  
 
 ### Enunciado: 
@@ -9,10 +9,15 @@ Com o código fonte aberto você deve:<br>
 <br>
 Verificar no código algum elemento que utilize JavaScript; <br>
 Marcar alguns elementos do site; <br>
-Explicar como ele se comporta. Exemplo: entrar no site do Google, inspecionar o botão de pesquisa, verificar o código e explicar qual a finalidade do botão.<br>
+Explicar como ele se comporta. <br>Exemplo: entrar no site do Google, inspecionar o botão de pesquisa, verificar o código e explicar qual a finalidade do botão.<br>
 <br>
 **Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
 
-<h3><a href="">Primeiro site:</a></h3>
-Clique no hiperlink acima ou acesse o arquivo "serializacao/main.java" para ver a resolução do exercício.
+<h3><a href="https://pt.wikipedia.org/wiki/O_Jogo_(jogo_mental)">Primeiro site:</a></h3>
+Clique no hiperlink acima ou acesse o arquivo "https://pt.wikipedia.org/wiki/O_Jogo_(jogo_mental)" para acessar o site.<br>
+O elemento escolhido é o pequeno ”X” no banner do topo da página.
+![elemento](Assets/O Jogo (jogo mental) – Wikipédia, a enciclopédia livre - Google Chrome 21_07_2022 15_11_14.png)
+
 <br>
+<h3><a href="https://theuselessweb.com">Segundo site:</a></h3>
+Clique no hiperlink acima ou acesse o arquivo "https://theuselessweb.com" para acessar o site.
