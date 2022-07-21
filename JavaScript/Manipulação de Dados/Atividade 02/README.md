@@ -13,3 +13,9 @@ Atividade proposta: Com ajuda da leitura complementar, você deve configurar o s
 Escreva, no mínimo, um parágrafo mostrando seu ambiente configurado, explique sua escolha.<br>
 
 **Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
+
+### Resolução:
+
+Para realizar essa atividade estarei utilizando o Visual Studio Code e seguindo o tutorial disponibilizado na [página oficial do programa](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial).
+Primeiramente foi necessário instalar o Node.js no computador
+<img src="Assets/Imagens/configuração de ambiente/node.png" width=900>
