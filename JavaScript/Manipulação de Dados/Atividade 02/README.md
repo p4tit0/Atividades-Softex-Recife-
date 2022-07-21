@@ -17,6 +17,7 @@ Escreva, no mínimo, um parágrafo mostrando seu ambiente configurado, explique 
 ### Resolução:
 
 Para realizar essa atividade estarei utilizando o Visual Studio Code e seguindo o tutorial disponibilizado na [página oficial do programa](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial).<br>
+Escolhi este ambiente por sua popularidade e por já estar acostumado com sua interface.
 <br>
 Primeiramente foi necessário instalar o [Node.js](https://nodejs.org/en/download/) no computador
 
