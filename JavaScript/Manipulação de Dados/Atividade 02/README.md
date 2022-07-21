@@ -16,6 +16,14 @@ Escreva, no mínimo, um parágrafo mostrando seu ambiente configurado, explique 
 
 ### Resolução:
 
-Para realizar essa atividade estarei utilizando o Visual Studio Code e seguindo o tutorial disponibilizado na [página oficial do programa](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial).
-Primeiramente foi necessário instalar o Node.js no computador
-<img src="Assets/Imagens/configuração de ambiente/node.png" width=900>
+Para realizar essa atividade estarei utilizando o Visual Studio Code e seguindo o tutorial disponibilizado na [página oficial do programa](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial).<br>
+<br>
+Primeiramente foi necessário instalar o [Node.js](https://nodejs.org/en/download/) no computador
+
+<img src="/Assets/Imagens/configuração de ambiente/node.png" width=960>
+<br>
+Após isso foi preciso instalar algumas extensões no VScode para se trabalhar com Node.js
+<img src="/Assets/Imagens/configuração de ambiente/extensions.png" width=960>
+<br>
+Por fim, basta reiniciar o VScode e o ambiente esta pronto para uso
+<img src="/Assets/Imagens/configuração de ambiente/ambient.png" width=960>
