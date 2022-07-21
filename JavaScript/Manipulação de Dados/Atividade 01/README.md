@@ -15,8 +15,16 @@ Explicar como ele se comporta. <br>Exemplo: entrar no site do Google, inspeciona
 
 <h3><a href="https://pt.wikipedia.org/wiki/O_Jogo_(jogo_mental)">Primeiro site:</a></h3>
 Clique no hiperlink acima ou acesse o arquivo "https://pt.wikipedia.org/wiki/O_Jogo_(jogo_mental)" para acessar o site.<br>
+<br>
 O elemento escolhido é o pequeno ”X” no banner do topo da página.
-![elemento](https://github.com/p4tit0/Atividades-Softex-Recife-/blob/56590b3a6f71488b3443070f65293d13e98bbe97/Assets/O%20Jogo%20(jogo%20mental)%20%E2%80%93%20Wikip%C3%A9dia,%20a%20enciclop%C3%A9dia%20livre%20-%20Google%20Chrome%2021_07_2022%2015_11_14.png)
+<img src="/Assets/Imagens/inspeção/elemento.png" width="960">
+O código deste elemento é bem simples. Composto por apenas 2 linhas descritas a seguir
+
+```
+
+mw.centralNotice.hideBanner();
+return false;
+```
 
 <br>
 <h3><a href="https://theuselessweb.com">Segundo site:</a></h3>
