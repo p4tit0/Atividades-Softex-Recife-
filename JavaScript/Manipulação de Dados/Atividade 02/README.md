@@ -1,4 +1,4 @@
-# ***Primeira atividade sobre Manipulação de Dados***
+# ***Segunda atividade sobre Manipulação de Dados***
 _Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data: 21 de julho de 2022_
 #  
 
