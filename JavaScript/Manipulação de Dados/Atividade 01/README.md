@@ -20,8 +20,7 @@ O elemento escolhido é o pequeno ”X” no banner do topo da página.
 <img src="/Assets/Imagens/inspeção/elemento.png" width="960">
 O código deste elemento é bem simples. Composto por apenas 2 linhas descritas a seguir
 
-```
-
+```js
 mw.centralNotice.hideBanner();
 return false;
 ```
