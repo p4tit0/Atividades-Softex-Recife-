@@ -16,4 +16,4 @@ Cite três exemplos de dados utilizados no seu cotidiano (exemplo: termômetro) 
 #### Dados na internet:
 - Localização: _Alguns sites utilizam a localização do usuário para coisas como rotas de trafego, valor do frete, lojas nas proximidades, etc...;_
 - Avaliação do usuário: _Sites e aplicativos costumam pedir uma avaliação do usuário juntamente com um comentário, utilizados para medir a qualidade do produto/serviço prestado e saber como melhorar;_
-- Informações bancárias: _Esses são dados utilizados por muitos sites de compras (e scammers), alguns exemplos são número do cartão de crédito, cvv, data de vencimento do cartão_
+- Informações bancárias: _Esses são dados utilizados por muitos sites de compras (e scammers), alguns exemplos são número do cartão de crédito, cvv, data de vencimento do cartão._
