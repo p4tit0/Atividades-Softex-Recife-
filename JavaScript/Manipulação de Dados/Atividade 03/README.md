@@ -7,6 +7,6 @@ Cite três exemplos de dados utilizados no seu cotidiano (exemplo: termômetro) 
 <br>
 **Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.**
 
-## Resolução:
-### Dados no cotidiano:
+### Resolução:
+#### Dados no cotidiano:
 
