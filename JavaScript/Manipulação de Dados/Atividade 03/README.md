@@ -10,3 +10,9 @@ Cite três exemplos de dados utilizados no seu cotidiano (exemplo: termômetro) 
 ### Resolução:
 #### Dados no cotidiano:
 
+- Relógio: fornece o horário atual como dado;
+- Velocímetro: fornece o dado velocidade atual;
+- Régua: fornece o tamanho do objeto medido.
+
+#### Dados na internet:
+
