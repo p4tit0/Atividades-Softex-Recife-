@@ -9,11 +9,11 @@ Cite três exemplos de dados utilizados no seu cotidiano (exemplo: termômetro) 
 
 ### Resolução:
 #### Dados no cotidiano:
-- Relógio: fornece o horário atual como dado;
-- Velocímetro: fornece o dado velocidade atual;
-- Régua: fornece o tamanho do objeto medido.
+- _Relógio_: fornece o horário atual como dado;
+- _Velocímetro_: fornece o dado velocidade atual;
+- _Régua_: fornece o tamanho do objeto medido.
 
 #### Dados na internet:
-- Localização: Alguns sites utilizam a localização do usuário para coisas como rotas de trafego, valor do frete, lojas nas proximidades, etc...;
-- Avaliação do usuário: Sites e aplicativos costumam pedir uma avaliação do usuário juntamente com um comentário, utilizados para medir a qualidade do produto/serviço prestado e saber como melhorar;
-- Informações bancárias: Esses são dados utilizados por muitos sites de compras (e scammers), alguns exemplos são número do cartão de crédito, cvv, data de vencimento do cartão. 
+- _Localização_: Alguns sites utilizam a localização do usuário para coisas como rotas de trafego, valor do frete, lojas nas proximidades, etc...;
+- _Avaliação do usuário_: Sites e aplicativos costumam pedir uma avaliação do usuário juntamente com um comentário, utilizados para medir a qualidade do produto/serviço prestado e saber como melhorar;
+- _Informações bancárias_: Esses são dados utilizados por muitos sites de compras (e scammers), alguns exemplos são número do cartão de crédito, cvv, data de vencimento do cartão. 
