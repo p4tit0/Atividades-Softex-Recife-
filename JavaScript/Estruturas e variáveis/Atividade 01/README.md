@@ -8,6 +8,8 @@ Pesquise sobre padrões de projeto e escolha um para apresentar e descrever o se
 <br>
 **Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.**
 
-<h3><a href="https://pt.wikipedia.org/wiki/O_Jogo_(jogo_mental)">Primeiro site:</a></h3>
-Clique no hiperlink acima ou acesse o arquivo "https://pt.wikipedia.org/wiki/O_Jogo_(jogo_mental)" para acessar o site.<br>
+<h3>Padrão escolhido: <a href="https://refactoring.guru/design-patterns/iterator">Iterador</a></h3>
+Clique no hiperlink acima ou acesse "https://refactoring.guru/design-patterns/iterator" para ter uma explicação mais completa.<br>
 <br>
+Imagine que tenhamos uma coleção de objeto. Como podemos acessar os elementos de forma que não acessemos o mesmo elemento diversas vezes? quando esses elementos estão organizados em uma estrutura linear como uma lista isso é muito simples, basta olhar cada elemento um a um, mas quando temos uma estrutura não linear como um grafo ou uma arvore a coisa é bem maios complicada. tomando uma arvore como exemplo, podemos acessar os elementos com base no nível, na distancia ou de qualquer outra forma que for preciso. As vezes em um código é preciso acessar a mesma coleção de dados de diversas formas diferentes e implementar todas elas no código principal pode gerar diversos problemas como a redução da legibilidade do código e a poluição do mesmo.<br>
+Uma solução simples para esse problema é através da criação de classes iteradoras, onde cada uma obedece uma regra específica para o acsso de dados.
