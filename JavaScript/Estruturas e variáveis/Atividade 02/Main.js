@@ -1,6 +1,7 @@
 // Antes de executar o código digite "npm install prompt-sync" no terminal e pressione enter.
 const prompt = require('prompt-sync')();
 
+// recebe o primeiro valor
 var n1;
 while (true)
 {
@@ -9,6 +10,8 @@ while (true)
         break;
     console.log('ERROR: INSIRA UM NÚMERO VÁLIDO!');
 }
+
+// recebe o segundo valor
 var n2;
 while (true)
 {
@@ -17,6 +20,8 @@ while (true)
         break;
     console.log('ERROR: INSIRA UM NÚMERO VÁLIDO!');
 }
+
+// Exibe as opções de operações
 console.log();
 console.log('Agora escolha uma das seguntess operações: ');
 console.log(' ~ Soma(+)');
@@ -26,6 +31,8 @@ console.log(' ~ Divisão(/)');
 console.log(' ~ Potenciação(**)');
 console.log(' ~ Módulo(%)');
 console.log();
+
+// recebe a operação escolhida e exibe os resultados
 var op;
 while (true)
 {
