@@ -12,5 +12,5 @@ Com os conceitos aprendidos, crie um programa de calculadora que: <br>
 
 **Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
 
-<h3><a href="https://refactoring.guru/design-patterns/iterator">Resolução</a></h3>
+<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/JavaScript/Estruturas%20e%20variáveis/Atividade%2002/Main.js">Resolução</a></h3>
 Clique no hiperlink acima ou acesse o arquivo "Main.js" para ver a resolução do exercício.<br>
