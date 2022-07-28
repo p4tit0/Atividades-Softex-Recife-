@@ -5,7 +5,6 @@ _Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data:
 ### Enunciado: 
 Instruções do projeto<br>
 Com os conceitos aprendidos, crie um programa de calculadora que: <br>
-<br>
 - receba dois valores, que devem ser salvos em variáveis; 
 - o usuário deve colocar qual operador ele vai utilizar por meio dos símbolos aritméticos; 
 - com os dois valores e o operador definido, o programa deve fazer a operação e retornar o resultado; 
