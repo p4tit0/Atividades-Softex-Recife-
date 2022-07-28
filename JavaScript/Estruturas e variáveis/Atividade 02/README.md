@@ -14,3 +14,6 @@ Com os conceitos aprendidos, crie um programa de calculadora que: <br>
 
 <h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/JavaScript/Estruturas%20e%20variáveis/Atividade%2002/Main.js">Resolução</a></h3>
 Clique no hiperlink acima ou acesse o arquivo "Main.js" para ver a resolução do exercício.<br>
+
+<h3><a href="https://replit.com/@Pattito/Calculadora-Vinicius-Santos-Lima#index.js">Testar o código</a></h3>
+Clique no hiperlink acima ou acesse "https://replit.com/@Pattito/Calculadora-Vinicius-Santos-Lima#index.js" para testar o código.<br>
