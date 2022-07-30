@@ -20,5 +20,5 @@ Clique no hiperlink acima ou acesse o arquivo "script.js" para ver a resolução
 Clique no hiperlink acima ou acesse "https://replit.com/@Pattito/Funcoes-Vinicius-Santos-Lima#script.js" para testar o código.<br>
 
 ### Fontes:
-Os scripts html e css que serviram de base para este projeto estão disponíveis em:
+Os scripts html e css que serviram de base para este projeto estão disponíveis em:<br>
 https://www.w3docs.com/learn-html/html-form-templates.html
