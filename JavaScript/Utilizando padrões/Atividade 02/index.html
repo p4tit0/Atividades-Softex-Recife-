@@ -1,0 +1,47 @@
+<!--
+Template do script html e css disponível em: https://www.w3docs.com/learn-html/html-form-templates.html
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Desenvolvimento 08</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="main-block">
+            <h1>Cadastro</h1>
+            <div class="input_fields">
+                <hr>
+                <input type="text" id="email" placeholder="Email"/>
+                <input type="text" id="name" placeholder="Nome"/>
+                <input type="password" id="psw" placeholder="Senha"/>
+                <hr>
+                <div class="gender">
+                    <input type="radio" value="Masculino" id="male" name="gender" checked/>
+                    <label for="male" class="radio">Masculino</label>
+                    <input type="radio" value="Feminino" id="female" name="gender" />
+                    <label for="female" class="radio">Feminino</label>
+                    <input type="radio" value="Ourto" id="other" name="gender" />
+                    <label for="other" class="radio">Ourto</label>
+                </div>
+                <hr>
+                <div class="btn-block">
+                    <button onclick="submit()">Enviar</button>
+                </div>
+                <h4>A senha deve conter:</h4>
+                <ul>
+                    <li>Uma letra <b>minúscula</b></li>
+                    <li>Uma letra <b> maiúscula</b></li>
+                    <li>Um <b>número</b></li>
+                    <li>No Mínimo <b>8 caracteres</b></li>
+                    <li>No Máximo <b>15 caracteres</b></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
