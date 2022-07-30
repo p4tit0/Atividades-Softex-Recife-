@@ -13,8 +13,12 @@ Crie um programa que utilize essas três funções de forma lógica, por exemplo
  
 **Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
 
-<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/JavaScript/Estruturas%20e%20variáveis/Atividade%2003/situacao.js">Resolução</a></h3>
-Clique no hiperlink acima ou acesse o arquivo "index.js" para ver a resolução da primeira parte do exercício.<br>
+<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/JavaScript/Utilizando%20padrões/Atividade%2002/script.js">Resolução</a></h3>
+Clique no hiperlink acima ou acesse o arquivo "script.js" para ver a resolução da primeira parte do exercício.<br>
 
-<h3><a href="https://replit.com/@Pattito/Sistema-de-media-01-Vinicius-Santos-Lima#index.js">Testar o primeiro código</a></h3>
-Clique no hiperlink acima ou acesse "https://replit.com/@Pattito/Sistema-de-media-01-Vinicius-Santos-Lima#index.js" para testar o primeiro código.<br>
+<h3><a href="https://replit.com/@Pattito/Funcoes-Vinicius-Santos-Lima#script.js">Testar o código</a></h3>
+Clique no hiperlink acima ou acesse "https://replit.com/@Pattito/Funcoes-Vinicius-Santos-Lima#script.js" para testar o código.<br>
+
+### Fontes:
+Os scripts html e css que serviram de base para este projeto estão disponíveis em:
+https://www.w3docs.com/learn-html/html-form-templates.html
