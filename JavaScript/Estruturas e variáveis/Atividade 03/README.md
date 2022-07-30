@@ -19,5 +19,5 @@ Clique no hiperlink acima ou acesse "https://replit.com/@Pattito/Sistema-de-medi
 <h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/JavaScript/Estruturas%20e%20variáveis/Atividade%2003/calculadora.js">Segundo código</a></h3>
 Clique no hiperlink acima ou acesse o arquivo "" para ver a resolução da segunda parte do exercício.<br>
 
-<h3><a href="">Testar o segundo código</a></h3>
-Clique no hiperlink acima ou acesse "" para testar o segundo código.<br>
+<h3><a href="https://replit.com/@Pattito/Sistema-de-media-02-Vinicius-Santos-Lima#index.js">Testar o segundo código</a></h3>
+Clique no hiperlink acima ou acesse "https://replit.com/@Pattito/Sistema-de-media-02-Vinicius-Santos-Lima#index.js" para testar o segundo código.<br>
