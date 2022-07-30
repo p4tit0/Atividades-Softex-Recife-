@@ -10,13 +10,13 @@ Crie dois códigos de sistema de notas para uma escola.
  
 **Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
 
-<h3><a href="">Primeiro código</a></h3>
-Clique no hiperlink acima ou acesse o arquivo "" para ver a resolução da primeira parte do exercício.<br>
+<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/JavaScript/Estruturas%20e%20variáveis/Atividade%2003/situacao.js">Primeiro código</a></h3>
+Clique no hiperlink acima ou acesse o arquivo "situacao.js" para ver a resolução da primeira parte do exercício.<br>
 
 <h3><a href="">Testar o primeiro código</a></h3>
 Clique no hiperlink acima ou acesse "" para testar o primeiro código.<br>
 
-<h3><a href="">Segundo código</a></h3>
+<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/JavaScript/Estruturas%20e%20variáveis/Atividade%2003/calculadora.js">Segundo código</a></h3>
 Clique no hiperlink acima ou acesse o arquivo "" para ver a resolução da segunda parte do exercício.<br>
 
 <h3><a href="">Testar o segundo código</a></h3>
