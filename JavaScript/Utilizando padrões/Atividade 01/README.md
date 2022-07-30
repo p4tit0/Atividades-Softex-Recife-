@@ -11,7 +11,9 @@ Escolha algum código executável em JavaScript feito em atividades passadas e o
 #### Criação do pacote
 <img src="/Assets/Imagens/Padroes01/imagem_2022-07-30_134522786.png" width=960>
 <img src="/Assets/Imagens/Padroes01/imagem_2022-07-30_134534593.png" width=960>
+
 #### Instalação das bibliotecas nescessárias
 <img src="/Assets/Imagens/Padroes01/imagem_2022-07-30_134545659.png" width=960>
+
 #### Realização dos testes
 <img src="/Assets/Imagens/Padroes01/imagem_2022-07-30_134555556.png" width=960>
