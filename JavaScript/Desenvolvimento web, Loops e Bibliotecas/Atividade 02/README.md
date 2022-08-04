@@ -18,7 +18,7 @@ return response.send(`Hello!<br>This is the ${route[0]} route "${subroute}".<br>
 ```
 
 Será exibido um pequeno texto informando o tipo (principal/secundário) e o número da rota seguido da seguinte imagem:
-<a href="https://catiororeflexivo.com/wp-content/uploads/2020/07/funny-expressive-dog-corgi-genthecorgi-1-22-5f0ea744e82d4__700.jpg"><img src="https://catiororeflexivo.com/wp-content/uploads/2020/07/funny-expressive-dog-corgi-genthecorgi-1-22-5f0ea744e82d4__700.jpg"  width="600"></a>
+<a href="https://catiororeflexivo.com/wp-content/uploads/2020/07/funny-expressive-dog-corgi-genthecorgi-1-22-5f0ea744e82d4__700.jpg"><img src="https://catiororeflexivo.com/wp-content/uploads/2020/07/funny-expressive-dog-corgi-genthecorgi-1-22-5f0ea744e82d4__700.jpg"  width="600"></a><br>
 Seguem as prints mostrando os resultádos dos testes:
 
 <img src="/JavaScript/Desenvolvimento web, Loops e Bibliotecas/Atividade 02/prints/01.png"  width="960">
