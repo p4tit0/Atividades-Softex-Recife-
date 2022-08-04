@@ -1,7 +1,0 @@
-{
-    "port": 1763,
-    "routes": {
-        "Main": ["route01", "route02", "route03"],
-        "Secondary": ["route04", "route05"]
-    }
-}
