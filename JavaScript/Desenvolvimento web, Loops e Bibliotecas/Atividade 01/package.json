@@ -1,0 +1,14 @@
+{
+  "name": "objetos",
+  "version": "1.0.0",
+  "description": "Resolução do primeiro exercício proposto no 4º módulo de JavaScript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Vinícius Santos Lima",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
