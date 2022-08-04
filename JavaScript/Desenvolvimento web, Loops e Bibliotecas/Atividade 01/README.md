@@ -1,7 +1,3 @@
-
-https://replit.com/@Pattito/Objetos-Vinicius-Santos-Lima#index.js
-
-
 # ***Primeira atividade sobre Desenvolvimento Web, Loops e Bibliotecas***
 _Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data: 04 de agosto de 2022_
 #  
