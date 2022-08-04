@@ -11,6 +11,16 @@ Observação: os prints, ou o próprio código, devem ser divididos por arquivos
 
 <h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/JavaScript/Desenvolvimento%20web%2C%20Loops%20e%20Bibliotecas/Atividade%2002/src/index.js">Resolução</a></h3>
 Clique no hiperlink acima ou acesse o arquivo "src/index.js" para ver a resolução do exercício.<br>
+Como pode ser observado no arquivo <a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/JavaScript/Desenvolvimento%20web%2C%20Loops%20e%20Bibliotecas/Atividade%2002/src/conn.json">"src/conn.json"</a> foram definidas 4 rotas, 2 principais e 2 secundarias, e em cada uma, como mostra a linha 13 do código:
+
+```js
+return response.send(`Hello!<br>This is the ${route[0]} route "${subroute}".<br><img src="https://catiororeflexivo.com/wp-content/uploads/2020/07/funny-expressive-dog-corgi-genthecorgi-1-22-5f0ea744e82d4__700.jpg"  width="300">`);
+```
+
+Será exibido um pequeno texto informando o tipo (principal/secundário) e o número da rota seguido da seguinte imagem:
+<a href="https://catiororeflexivo.com/wp-content/uploads/2020/07/funny-expressive-dog-corgi-genthecorgi-1-22-5f0ea744e82d4__700.jpg"><img src="https://catiororeflexivo.com/wp-content/uploads/2020/07/funny-expressive-dog-corgi-genthecorgi-1-22-5f0ea744e82d4__700.jpg"  width="960"></a>
+seguem as prints mostrando os resultádos dos testes
+
 
 <h3><a href="https://replit.com/@Pattito/Objetos-Vinicius-Santos-Lima#index.js">Testar o código</a></h3>
 Clique no hiperlink acima ou acesse "https://replit.com/@Pattito/Objetos-Vinicius-Santos-Lima#index.js" para testar o código.<br>
