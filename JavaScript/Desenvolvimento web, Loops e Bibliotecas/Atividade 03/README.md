@@ -11,7 +11,7 @@ Desenvolva um código e crie nele:
 
 **Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
 
-<h3><a href="">Resolução</a></h3>
+<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/JavaScript/Desenvolvimento%20web%2C%20Loops%20e%20Bibliotecas/Atividade%2003/index.js">Resolução</a></h3>
 Clique no hiperlink acima ou acesse o arquivo "index.js" para ver a resolução do exercício.<br>
 
 <h3><a href="https://replit.com/@Pattito/Loops-Vinicius-Santos-Lima#index.js">Testar o código</a></h3>
