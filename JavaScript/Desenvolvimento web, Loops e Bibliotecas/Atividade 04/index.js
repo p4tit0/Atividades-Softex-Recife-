@@ -21,7 +21,7 @@ async function run() {
             });
         
         }).catch((error) => {
-            console.error('Unable to create table : ', error);
+            console.log(format.msg(50, 'ERROR', 'Erro ao sincronizar tabela!', '-', {txt_bg_color: "RED", line_format: "BOLD"}));
         });
 
 }
