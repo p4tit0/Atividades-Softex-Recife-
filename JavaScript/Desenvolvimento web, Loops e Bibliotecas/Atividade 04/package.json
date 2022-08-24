@@ -1,0 +1,16 @@
+{
+  "name": "db_connection",
+  "version": "1.0.0",
+  "description": "Resulição do quarto exercício proposto no quarto módulo de JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Vinícius Santos Lima",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "prompt-sync": "^4.2.0",
+    "sequelize": "^6.21.4"
+  }
+}
