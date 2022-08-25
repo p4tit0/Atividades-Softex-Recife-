@@ -1,0 +1,11 @@
+{
+  "name": "factory_method",
+  "version": "1.0.0",
+  "description": "Resolução da primeira atividade do primeiro módulo de padrões de desenvolvimento",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Vinícius Santos Lima",
+  "license": "ISC"
+}
