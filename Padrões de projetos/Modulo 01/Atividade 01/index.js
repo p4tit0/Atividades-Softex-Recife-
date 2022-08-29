@@ -139,6 +139,11 @@ class ComputerFactory
             throw new Error('Valór inválido');
         this.cpu = value;
     }
+ 
+    createComputer()
+    {
+        throw new Error('O método "createComputer()" deve ser implementado.');
+    }
 }
 
 /**
