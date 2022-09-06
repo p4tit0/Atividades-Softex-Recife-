@@ -114,9 +114,8 @@ public class Prototype
             try {
                 return (Veicle) this.clone();
             } catch (CloneNotSupportedException ex) {
-                Logger.getLogger(Prototype.class.getName()).log(Level.SEVERE, null, ex);
+                return (Veicle) this;
             }
-            return null;
         }
     }
     
@@ -151,9 +150,8 @@ public class Prototype
             try {
                 return (Veicle) this.clone();
             } catch (CloneNotSupportedException ex) {
-                Logger.getLogger(Prototype.class.getName()).log(Level.SEVERE, null, ex);
+                return (Veicle) this;
             }
-            return null;
         }
     }
 }

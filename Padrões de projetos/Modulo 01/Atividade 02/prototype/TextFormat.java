@@ -34,7 +34,7 @@ public class TextFormat
         }
     }
     
-    //String bg_color, String txt_color, String txt_format
+
     public static String get_format(String... params)
     {
         String bg_color = params.length > 0 ? params[0] : "NONE";
@@ -133,6 +133,7 @@ public class TextFormat
         return result;
     }
     
+    
     public static String msg1(int size, String title, String txt, String... kargs)
     {
         String line = kargs.length > 0 ? kargs[0] : "-";
@@ -161,10 +162,5 @@ public class TextFormat
         result += line_format_str + raw_div + line.substring(0, size%line.length()) + ANSI_RESET;
         return result;
     }
-    /*
-    def msg2(size: int, txt: str, bg_color: str = '', txt_color: str = '', txt_format: str = ''):
-        txt_format_str = get_format(bg_color, txt_color, txt_format)
-        for message in txt.split('\n'):
-            print(txt_format_str + message + " " * (size - len(message)) + "\033[0m")
-    */
+
 }
