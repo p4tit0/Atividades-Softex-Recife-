@@ -1,4 +1,4 @@
-# ***Primeira atividade do primeiro módulo de padrões de desenvolvimento***
+# ***Primeira atividade do segundo módulo de padrões de desenvolvimento***
 _Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data: 09 de setembro de 2022_
 #  
 
@@ -12,5 +12,5 @@ Aplique o padrão de projeto decorator para criar um sanduíche de frango assado
 
 **Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
 
-<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/Padrões%20de%20projetos/Modulo%2001/Atividade%2001/index.js">Resolução</a></h3>
-Clique no hiperlink acima ou acesse o arquivo "index.js" para ver a resolução do exercício.<br>
+<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/Padrões%20de%20projetos/Modulo%2002/Atividade%2001/decorator/Decorator.java">Resolução</a></h3>
+Clique no hiperlink acima ou acesse o arquivo "decorator/Decorator.java" para ver a resolução do exercício.<br>
