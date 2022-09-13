@@ -1,5 +1,5 @@
 # ***Segunda atividade do segundo módulo de padrões de desenvolvimento***
-_Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data: 09 de setembro de 2022_
+_Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data: 13 de setembro de 2022_
 #  
 
 ### Enunciado: 
