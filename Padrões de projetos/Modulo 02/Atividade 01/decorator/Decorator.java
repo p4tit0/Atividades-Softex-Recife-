@@ -12,8 +12,8 @@ import java.util.logging.Logger;
 
 
 /**
- *
- * @author space
+ * Implementação do padrão de projeto decorator.
+ * @author Vinícius Santos Lima
  */
 
 abstract class Sandwich
