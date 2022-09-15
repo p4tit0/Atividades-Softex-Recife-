@@ -11,5 +11,5 @@ Considerando a solução apresentada no Hipertexto 5, aplique o padrão de proje
 
 **Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
 
-<h3><a href="">Resolução</a></h3>
-Clique no hiperlink acima ou acesse o arquivo "" para ver a resolução do exercício.<br>
+<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/Padrões%20de%20projetos/Modulo%2003/Atividade%2001/Strategy/src/strategy/StrategyPattern.java">Resolução</a></h3>
+Clique no hiperlink acima ou acesse o arquivo "Strategy/src/strategy/StrategyPattern.java" para ver a resolução do exercício.<br>
