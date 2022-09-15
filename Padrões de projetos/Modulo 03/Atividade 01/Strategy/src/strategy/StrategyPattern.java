@@ -10,8 +10,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-
-
 /**
  * Implementação do padrão de projeto strategy.
  * @author Vinícius Santos Lima
