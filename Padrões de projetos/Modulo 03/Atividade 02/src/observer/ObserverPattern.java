@@ -2,6 +2,7 @@
 package observer;
 
 import java.io.*;
+import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -43,16 +44,15 @@ public class ObserverPattern {
         public void update(Object... data) {
             if (data.length <= 0) 
                 throw new IllegalArgumentException("Nome do arquivo não foi fornecido.");
-            System.out.printf("As alterações no arquivo \"%s\" fora feitas com sucesso!\n", (String) data[0]);
+            System.out.printf("As alterações no arquivo \"%s\" foram feitas com sucesso!\n", (String) data[0]);
         }
     }
     
     
-    class Editor {
+    static class Editor {
         protected EventManager event_manager;
-        protected BufferedReader br;
-        protected BufferedWriter bw;
         protected File file;
+        protected File temp;
         
         public Editor(EventManager event_manager) {
             this.event_manager = event_manager;
@@ -64,9 +64,19 @@ public class ObserverPattern {
                 
                 if (!file.exists())
                     file.createNewFile();
-                    
-                this.br = new BufferedReader(new FileReader(file));
-                this.bw = new BufferedWriter(new FileWriter(file));
+                
+                this.temp = File.createTempFile(this.file.getName(), ".tmp");
+
+                BufferedReader br = new BufferedReader(new FileReader(this.file));
+                BufferedWriter tempbw = new BufferedWriter(new FileWriter(this.temp));
+                String line;
+                while ((line = br.readLine()) != null) {
+                    tempbw.write(line);
+                    tempbw.newLine();
+                }
+                tempbw.close();
+                br.close();
+                
             } catch (IOException ex) {
                 Logger.getLogger(ObserverPattern.class.getName()).log(Level.SEVERE, null, ex);
             } finally {
@@ -76,14 +86,25 @@ public class ObserverPattern {
         
         public void saveFile() {
             try {
-                if (this.br != null)
-                    this.br.close();
-                if (this.bw != null)
-                    this.bw.close();
+                String line;
+                BufferedReader tempbr = new BufferedReader(new FileReader(this.temp));
+                
+                BufferedWriter bw = new BufferedWriter(new FileWriter(this.file));
+                while ((line = tempbr.readLine()) != null) {
+                    System.out.println(line);
+                    bw.write(line);
+                    bw.newLine();
+                }
+                bw.close();
+                
+                tempbr.close();
             } catch (IOException ex) {
                 Logger.getLogger(ObserverPattern.class.getName()).log(Level.SEVERE, null, ex);
             } finally {
                 event_manager.notfy(Events.SAVEFILE, file.getAbsolutePath());
+                this.temp.delete();
+                this.temp = null;
+                this.file = null;
             }
         }
     }
@@ -95,67 +116,57 @@ public class ObserverPattern {
         }
         
         public void insertLine(int lineNumber, String text) {
+            String[] file_text = new String[0];
             String line;
             int count = 0;
             boolean found = false;
-            try {              
-                File temp = File.createTempFile(this.file.getName(), ".tmp");
-                BufferedWriter tempbw = new BufferedWriter(new FileWriter(temp));
-                
-                while ((line = this.br.readLine()) != null) {
+            try {
+                BufferedReader tempbr = new BufferedReader(new FileReader(this.temp));
+                while ((line = tempbr.readLine()) != null) {
                     if (count == lineNumber) {
-                        tempbw.write(text);
-                        tempbw.newLine();
+                        file_text = AppendToStringArr(file_text, text);
                         found = true;
                     }
-                    tempbw.write(line);
+                    file_text = AppendToStringArr(file_text, line);
                     count++;
                 }
                 if (!found)
-                    tempbw.write(text);
-                
-                tempbw.close();
-                BufferedReader tempbr = new BufferedReader(new FileReader(temp));
-                while ((line = tempbr.readLine()) != null) {
-                    this.bw.write(line);
-                    this.bw.newLine();
-                }
-                
+                    file_text = AppendToStringArr(file_text, text);
                 tempbr.close();
-                temp.delete();
+                
+                BufferedWriter tempbw = new BufferedWriter(new FileWriter(this.temp));
+                for (String l : file_text) {
+                    tempbw.write(l);
+                    tempbw.newLine();
+                }
+                tempbw.close();
             } catch (IOException ex) {
                 Logger.getLogger(ObserverPattern.class.getName()).log(Level.SEVERE, null, ex);
             } finally {
                 event_manager.notfy(Events.EDITFILE, file.getAbsolutePath());
             }
-            
-            
-            
         }
         
         public void removeLine(int lineNumber) {
+            String[] file_text = new String[0];
             String line;
             int count = 0;
             try {
-                File temp = File.createTempFile(this.file.getName(), ".tmp");
-                BufferedWriter tempbw = new BufferedWriter(new FileWriter(temp));
-                
-                while ((line = this.br.readLine()) != null) {
+                BufferedReader tempbr = new BufferedReader(new FileReader(this.temp));
+                while ((line = tempbr.readLine()) != null) {
                     if (count == lineNumber) 
                         continue;
-                    tempbw.write(line);
+                    file_text = AppendToStringArr(file_text, line);
                     count++;
                 }
-                
-                tempbw.close();
-                BufferedReader tempbr = new BufferedReader(new FileReader(temp));
-                while ((line = tempbr.readLine()) != null) {
-                    this.bw.write(line);
-                    this.bw.newLine();
-                }
-                
                 tempbr.close();
-                temp.delete();
+                
+                BufferedWriter tempbw = new BufferedWriter(new FileWriter(this.temp));
+                for (String l : file_text) {
+                    tempbw.write(l);
+                    tempbw.newLine();
+                }
+                tempbw.close();
             } catch (IOException ex) {
                 Logger.getLogger(ObserverPattern.class.getName()).log(Level.SEVERE, null, ex);
             } finally {
@@ -223,6 +234,12 @@ public class ObserverPattern {
                 }
             }
         }
+    }
+    
+    public String[] AppendToStringArr(String[] arr,String new_string) {
+        arr = Arrays.copyOf(arr, arr.length+1);
+        arr[arr.length - 1] = new_string;
+        return arr;
     }
     
     public void run() {
