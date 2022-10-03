@@ -15,5 +15,5 @@ Aplique o padrão de projeto Observer para criar um simples editor de texto. Con
 
 **Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.**
 
-<h3><a href="">Resolução</a></h3>
-Clique no hiperlink acima ou acesse o arquivo "" para ver a resolução do exercício.<br>
+<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/Padrões%20de%20projetos/Modulo%2003/Atividade%2002/src/observer/ObserverPattern.java">Resolução</a></h3>
+Clique no hiperlink acima ou acesse o arquivo "src/observer/ObserverPattern.java" para ver a resolução do exercício.<br>
