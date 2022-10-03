@@ -154,8 +154,10 @@ public class ObserverPattern {
             try {
                 BufferedReader tempbr = new BufferedReader(new FileReader(this.temp));
                 while ((line = tempbr.readLine()) != null) {
-                    if (count == lineNumber) 
+                    if (count == lineNumber) {
+                        count++;
                         continue;
+                    }
                     file_text = AppendToStringArr(file_text, line);
                     count++;
                 }
@@ -255,14 +257,75 @@ public class ObserverPattern {
         
         TextEditor te = new TextEditor(em);
         
-        te.openFile("test.txt");
-        te.insertLine(0, "line 1");
-        te.insertLine(1, "line 3");
-        te.saveFile();
-        te.openFile("test.txt");
-        te.insertLine(1, "line 2");
+        Input input_manager = new Input();
         
-        te.saveFile();
+        System.out.println(TextFormat.title(51, "FILE MANAGER 2.0", "-=-", "MAGENTA", "WHITE", "BOLD+ITALIC"));
+        System.out.println("Bem vindo ao gerenciador de arquivos 2.0!");
+        while (true)
+        {                        
+            System.out.println("O que você deseja fazer agora?");
+            System.out.println("   1 - Abrir arquivo");
+            System.out.println("   2 - Adicionar texto");
+            System.out.println("   3 - remover linha");
+            System.out.println("   4 - Salvar arqivo");
+            System.out.println("   0 - Sair\n");
+            
+            int op = input_manager.get_int_range_input("Opcao escolhida: ", "INSIRA UMA OPCAO VALIDA!", 4);
+            
+            switch (op)
+            {
+                case 0:
+                    System.out.println("Até a próxima!");
+                    System.exit(0);
+                    break;
+                case 1:
+                    te.openFile(input_manager.get_str_input("Insira o caminho do arquivo: "));
+                    break;
+                case 2:
+                    if (te.file == null) {
+                        System.out.println(TextFormat.msg1(50, "ERROR", "ABRA ALGUM ARQUIVO PRIMEIRO!", "-", "RED", "WHITE", "ITALIC+BOLD"));
+                        break;
+                    }
+                    while (true) {
+                        int line_idx = input_manager.get_positive_input("Indice de inserção: ", "INSIRA UM NÚMERO NÂO NEGATIVO!");
+                        String line = input_manager.get_str_input("Texto a ser inserido: ");
+                        
+                        te.insertLine(line_idx, line);
+                        
+                        boolean add_new_line = input_manager.get_bool_input("Adicionar outra linha (S/N)? ", "INSIRA UMA OPCAO VALIDA!", "S", "N");
+                        if (!add_new_line) {
+                            boolean save = input_manager.get_bool_input("Salvar alterações (S/N)? ", "INSIRA UMA OPCAO VALIDA!", "S", "N");
+                            if (save)
+                                te.saveFile();
+                            break;
+                        }
+                    }
+                    break;
+                    
+                case 3:
+                    if (te.file == null) {
+                        System.out.println(TextFormat.msg1(50, "ERROR", "ABRA ALGUM ARQUIVO PRIMEIRO!", "-", "RED", "WHITE", "ITALIC+BOLD"));
+                        break;
+                    }
+                    while (true) {
+                        int line_idx = input_manager.get_positive_input("Indice de remoção: ", "INSIRA UM NÚMERO NÂO NEGATIVO!");
+                        
+                        te.removeLine(line_idx);
+                        
+                        boolean remove_new_line = input_manager.get_bool_input("Remover outra linha (S/N)? ", "INSIRA UMA OPCAO VALIDA!", "S", "N");
+                        if (!remove_new_line) {
+                            boolean save = input_manager.get_bool_input("Salvar alterações (S/N)? ", "INSIRA UMA OPCAO VALIDA!", "S", "N");
+                            if (save)
+                                te.saveFile();
+                            break;
+                        }
+                    }
+                    break;
+                case 4:
+                    te.saveFile();
+                    break;
+            }
+        }
     }
     
     public static void main(String[] args) throws UnsupportedEncodingException {
