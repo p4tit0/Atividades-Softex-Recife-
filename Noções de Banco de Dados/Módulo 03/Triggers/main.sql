@@ -9,8 +9,8 @@
 --      Criação do banco de dados     
 -- ===================================
 
-CREATE DATABASE sql_joins;
-USE sql_joins;
+CREATE DATABASE sql_trigger;
+USE sql_trigger;
 
 -- ===================================
 --          Criação da tabela     
