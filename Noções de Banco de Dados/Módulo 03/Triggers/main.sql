@@ -26,7 +26,7 @@ CREATE TABLE INVENTORY(
     PRIMARY KEY (id)
 );
 
-SELECT * FROM TABLE_A;
+SELECT * FROM INVENTORY;
 
 -- ===================================
 --       Utilização de triggers
