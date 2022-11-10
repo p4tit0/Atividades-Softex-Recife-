@@ -10,7 +10,7 @@ A importância de manter a integridade dos dados em um banco de dados é evident
 Ele garante que os dados transferidos de um estágio para outro sejam precisos e sem erros.<br>
 
 ### Disponibilidade:
-Disponibilidade dos dados refere-se ao tempo e à acessibilidade que se tem dos dados e sistemas. Um banco de dados ideal deve ter seus dados disponíveis a todo momento.<br>
+Disponibilidade dos dados refere-se ao tempo e à acessibilidade que se tem dos dados e sistemas. Um banco de dados ideal deve ter seus dados disponíveis a todo momento.<br><br>
 A disponibilidade dos dados é importantante pois a indisponibilidade de dados de uma empresa pode acarretar na parada dos processos dependentes deles e, por consequencia, enormes perdas na produção.
 
 ### Confiabilidade:
