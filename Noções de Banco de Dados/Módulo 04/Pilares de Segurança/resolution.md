@@ -1,6 +1,4 @@
 # ***Pilares de Segurança de Dados***
-_Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data: 10 de novembro de 2022_
-#  
 
 ### Integridade: 
 A integridade de um dado é a garantia de que ele será retido em sua forma original, em outras palavras, é a falta de variação entre duas instâncias ou atualizações 
