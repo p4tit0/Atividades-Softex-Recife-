@@ -14,4 +14,4 @@ Disponibilidade dos dados refere-se ao tempo e à acessibilidade que se tem dos 
 A disponibilidade dos dados é importantante pois a indisponibilidade de dados de uma empresa pode acarretar na parada dos processos dependentes deles e, por consequencia, enormes perdas na produção.
 
 ### Confiabilidade:
-Este item se trata da restrição de acesso aos dados, garantindo que apenas pessoas altorizadas, capacitadas e com real necessiade tenhm acesso aos dados, evitando assim alterações indevidas e roubo de informações.
+Este item se trata da restrição de acesso aos dados, garantindo que apenas pessoas altorizadas, capacitadas e com real necessiade tenhm acesso aos dados, evitando assim alterações indevidas e roubo de informações. 
