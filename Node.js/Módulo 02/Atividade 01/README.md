@@ -8,4 +8,4 @@ Explique como rodar e testar.<br><br>
 <b>Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.</b>
 
 <h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/Node.js/Módulo%2002/Atividade%2001/server.js">Resolução</a></h3>
-Clique no hiperlink acima ou acesse o arquivo "resolution.md" para ver a resolução do exercício.<br>
+Clique no hiperlink acima ou acesse o arquivo "server.js" para ver a resolução do exercício.<br>
