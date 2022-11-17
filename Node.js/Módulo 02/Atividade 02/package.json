@@ -1,0 +1,17 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Uso da framework express",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Vinícius Santos Lima",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
