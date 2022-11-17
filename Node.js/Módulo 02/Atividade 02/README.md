@@ -7,5 +7,5 @@ Usando o Express, crie um código Node.JS, que deve receber requisições HTTP G
 <br><br>
 <b>Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.</b>
 
-<h3><a href="">Resolução</a></h3>
+<h3><a href="https://github.com/p4tit0/Atividades-Softex-Recife-/blob/main/Node.js/Módulo%2002/Atividade%2002/main.js">Resolução</a></h3>
 Clique no hiperlink acima ou acesse o arquivo "main.js" para ver a resolução do exercício.<br>
