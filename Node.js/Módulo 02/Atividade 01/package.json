@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Servidor com Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Vinícius Santos Lima",
+  "license": "ISC"
+}
