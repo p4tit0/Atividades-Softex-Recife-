@@ -1,1 +1,2 @@
-
+# ***Como funciona a web***
+A web é composta de dois tipos de computadores: os clientes, os computadores pessoais, e os servidores, onde os sites são hospedados. para acessar um site o cliente faz uma requisição HTTP ao servido através do protocolo TCP/IP e em resposta o servidor envia o reultado da busca, sendo bem sucedida ele envia o código 200 juntamente com o código do site atráves de pacotes de dados, que são processados pelo navegador montando a página web. 
