@@ -1,0 +1,53 @@
+<!--
+    REQUEST
+    POST /consultCustomerRequest HTTP/1.1
+    Host: http://www.mybusiness.com
+    Content-Type: application/soap+xml; charset=utf-8
+    Content-Length: nnn
+-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope">
+    
+    <soap:Header>
+        <m:RequestHeader
+             soap:actor="http://schemas.xmlsoap.org/soap/actor/next"
+             soap:mustUnderstand="0"
+             xmlns:ns1="https://www.exemple.com/apis/">
+          <m:networkCode>123456</m:networkCode>
+          <m:applicationName>consultCustomer</m:applicationName>
+        </m:RequestHeader>
+    </soap:Header>
+    
+    <soap:Body xmlns:m="http://www.mybusiness.com/consultCustomer">
+        <m:consultCustomerRequest>
+            <m:cpf>42841336751</m:cpf>
+        </m:consultCustomerRequest>
+    </soap:Body>
+</soap:Envelope>
+
+
+<!--
+    RESPONSE
+    HTTP/1.1 200 OK
+    Content-Type: application/soap+xml; charset=utf-8
+    Content-Length: nnn
+-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope">
+    
+    <soap:Header>
+        <ResponseHeader xmlns="https://www.exemple.com/apis/">
+          <requestId>xxxxxxxxxxxxxxxxxxxx</requestId>
+          <responseTime>1063</responseTime>
+        </ResponseHeader>
+    </soap:Header>
+    
+    <soap:Body xmlns:m="http://www.mybusiness.com/consultCustomer">
+        <m:consultCustomerResponse>
+            <m:name>Vinicius Santos</m:name>
+            <m:age>19</m:age>
+            <m:job>Student</m:job>
+            <m:birthDate>2003-04-11-T18:45:00</m:birthDate>
+        </m:consultCustomerResponse>
+    </soap:Body>
+</soap:Envelope>
