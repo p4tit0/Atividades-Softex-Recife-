@@ -9,4 +9,4 @@ Para isso, crie a estrutura de um web service, que demonstra exemplos de comunic
 <b>Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilhe o link desse projeto no campo ao lado para que outros desenvolvedores possam analisá-lo.</b>
 
 <h3><a href="">Resolução</a></h3>
-Clique no hiperlink acima ou acesse o arquivo "req.xml" para ver a resolução do exercício. <h1></h1>
+Clique no hiperlink acima ou acesse o arquivo "data.xml" para ver a resolução do exercício. <h1></h1>
