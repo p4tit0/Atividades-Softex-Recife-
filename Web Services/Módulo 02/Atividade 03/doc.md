@@ -8,7 +8,7 @@
   O servidor não precisa saber nada sobre o estado em que o cliente se encontra e vice-versa.
   
 ### interface uniforme
-  A API oferece uma interface uniforme entre os componentes, obtida através dos seguintes restrições :
+  A API oferece uma interface uniforme entre os componentes, obtida através dos seguintes restrições:
   - identificação de recursos;
   - gerenciamento de recursos por meio de representações;
   - mensagens auto-descritivas;
