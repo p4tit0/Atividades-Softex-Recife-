@@ -122,7 +122,7 @@ public class WebController {
 		
 	}
 	
-	////////////////////////UPDATE ////////////////////////
+	//////////////////////// DELETE ////////////////////////
 		
 	@DeleteMapping("/delete")
 	public ResponseEntity<String> delete(HttpServletRequest req, HttpServletResponse res, Model model,  @RequestParam("data") String StrId) {
