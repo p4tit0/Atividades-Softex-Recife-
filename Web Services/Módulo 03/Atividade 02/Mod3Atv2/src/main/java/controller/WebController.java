@@ -131,7 +131,7 @@ public class WebController {
 		
 			//Deleta usuário com determinao id 
 		
-			return ResponseEntity.status(HttpStatus.OK).body("Usuário alterado com sucesso");
+			return ResponseEntity.status(HttpStatus.OK).body("Usuário deletado com sucesso");
 		} catch (Exception e) {
 			return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Usuário não encontrado");
 		}
