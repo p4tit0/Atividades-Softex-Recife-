@@ -1,5 +1,5 @@
 # ***Definição de um modelo REST***
-_Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data: 19 de dezembro de 2022_
+_Aluno: Vinícius Santos Lima  E-mail: viniciussantoslima2003@gmail.com<br>Data: 23 de dezembro de 2022_
 #  
 
 ### Enunciado: 
